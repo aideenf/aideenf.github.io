@@ -1,4 +1,3 @@
-
 $( '.friend-drawer--onhover' ).on( 'click',  function() {
   
   $( '.chat-bubble' ).hide('slow').show('slow');
@@ -18,6 +17,7 @@ if ('serviceWorker' in navigator)
     });
   });
 }
+
 else 
 {
   console.log('ServiceWorker not in navigator');
