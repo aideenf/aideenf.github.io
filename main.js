@@ -7,15 +7,15 @@ $( '.friend-drawer--onhover' ).on( 'click',  function() {
 if ('serviceWorker' in navigator) 
 {
    //window.alert("Your browser does support this messaging application which uses service workers");
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+  //window.addEventListener('load', function() {
+    //navigator.serviceWorker.register('/sw.js').then(function(registration) {
       // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
+      //console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    //}, function(err) {
       // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
+      //console.log('ServiceWorker registration failed: ', err);
+    //});
+  //});
 }
 
 else 
