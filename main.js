@@ -1,5 +1,7 @@
-$( '.friend-drawer--onhover' ).on( 'click',  function() {
+$( document ).ready(function() {
+    $( '.friend-drawer--onhover' ).on( 'click',  function() {
   $( '.chat-bubble' ).hide('slow').show('slow'); 
+});
 });
 
 if ('serviceWorker' in navigator) 
